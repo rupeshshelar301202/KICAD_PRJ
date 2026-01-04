@@ -16,17 +16,17 @@
       "zones": 0.6
     },
     "selection_filter": {
-      "dimensions": false,
-      "footprints": false,
-      "graphics": false,
-      "keepouts": false,
+      "dimensions": true,
+      "footprints": true,
+      "graphics": true,
+      "keepouts": true,
       "lockedItems": false,
-      "otherItems": false,
-      "pads": false,
+      "otherItems": true,
+      "pads": true,
       "text": true,
-      "tracks": false,
-      "vias": false,
-      "zones": false
+      "tracks": true,
+      "vias": true,
+      "zones": true
     },
     "visible_items": [
       "vias",
@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "FAN SPEED CONTROL.kicad_prl",
+    "filename": "LINEAR POWER SUPPLY.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -115,20 +115,8 @@
   "project": {
     "files": [
       {
-        "name": "FAN SPEED CONTROL.kicad_pcb",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1048
-        }
-      },
-      {
-        "name": "FAN SPEED CONTROL.kicad_sch",
-        "open": true,
+        "name": "LINEAR POWER SUPPLY.kicad_sch",
+        "open": false,
         "window": {
           "display": 0,
           "maximized": true,
