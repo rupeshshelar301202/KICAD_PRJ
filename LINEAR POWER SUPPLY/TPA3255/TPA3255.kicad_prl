@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -15,13 +15,12 @@
       "vias": 1.0,
       "zones": 0.6
     },
-    "prototype_zone_fills": false,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -46,22 +45,21 @@
       "pads",
       "zones",
       "drc_warnings",
+      "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_02000025",
+    "visible_layers": "ffffffff_ffffffff_fffffff5_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
-    "integration_disabled": false,
-    "repo_password": "",
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "timepass.kicad_prl",
+    "filename": "TPA3255.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -108,7 +106,6 @@
     "filter_text": "",
     "group_by_constraint": false,
     "group_by_netclass": false,
-    "show_time_domain_details": false,
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
@@ -118,19 +115,7 @@
   "project": {
     "files": [
       {
-        "name": "timepass.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1048
-        }
-      },
-      {
-        "name": "timepass.kicad_sch",
+        "name": "TPA3255.kicad_pcb",
         "open": true,
         "window": {
           "display": 0,
@@ -144,7 +129,6 @@
     ]
   },
   "schematic": {
-    "hierarchy_collapsed": [],
     "selection_filter": {
       "graphics": true,
       "images": true,
@@ -152,7 +136,6 @@
       "lockedItems": false,
       "otherItems": true,
       "pins": true,
-      "ruleAreas": true,
       "symbols": true,
       "text": true,
       "wires": true

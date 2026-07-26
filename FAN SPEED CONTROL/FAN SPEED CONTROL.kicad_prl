@@ -54,6 +54,7 @@
     "zone_display_mode": 0
   },
   "git": {
+    "integration_disabled": false,
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
@@ -115,8 +116,8 @@
   "project": {
     "files": [
       {
-        "name": "FAN SPEED CONTROL.kicad_pcb",
-        "open": true,
+        "name": "FAN SPEED CONTROL.kicad_sch",
+        "open": false,
         "window": {
           "display": 0,
           "maximized": true,
@@ -127,8 +128,8 @@
         }
       },
       {
-        "name": "FAN SPEED CONTROL.kicad_sch",
-        "open": true,
+        "name": "FAN SPEED CONTROL.kicad_pcb",
+        "open": false,
         "window": {
           "display": 0,
           "maximized": true,
